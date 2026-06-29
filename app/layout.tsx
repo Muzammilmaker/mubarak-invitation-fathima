@@ -1,6 +1,6 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Cormorant_Garamond, Poppins } from 'next/font/google'
+import { Cormorant_Garamond, Poppins, Tangerine, Playfair_Display } from 'next/font/google'
 import './globals.css'
 
 const cormorant = Cormorant_Garamond({ 
@@ -12,6 +12,18 @@ const cormorant = Cormorant_Garamond({
 const poppins = Poppins({ 
   variable: '--font-body',
   weight: ['400', '500', '600', '700'],
+  subsets: ['latin']
+})
+
+const tangerine = Tangerine({
+  variable: '--font-script',
+  weight: ['400', '700'],
+  subsets: ['latin']
+})
+
+const playfair = Playfair_Display({
+  variable: '--font-elegant',
+  weight: ['400', '500', '600', '700', '800'],
   subsets: ['latin']
 })
 
@@ -51,8 +63,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${poppins.variable} bg-emerald-950`}>
-      <body className="font-body antialiased bg-emerald-950 text-cream">
+    <html lang="en" className={`${cormorant.variable} ${poppins.variable} ${tangerine.variable} ${playfair.variable} bg-gradient-to-br from-amber-50 via-slate-50 to-amber-100`}>
+      <body className="font-body antialiased bg-gradient-to-br from-amber-50 via-slate-50 to-amber-100 text-slate-900">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
