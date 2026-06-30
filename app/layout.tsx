@@ -63,8 +63,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${poppins.variable} ${tangerine.variable} ${playfair.variable} bg-gradient-to-br from-amber-50 via-slate-50 to-amber-100`}>
-      <body className="font-body antialiased bg-gradient-to-br from-amber-50 via-slate-50 to-amber-100 text-slate-900">
+    <html lang="en" className={`${cormorant.variable} ${poppins.variable} ${tangerine.variable} ${playfair.variable} bg-emerald-950`}>
+      <body className="font-body antialiased bg-emerald-950 text-cream">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>

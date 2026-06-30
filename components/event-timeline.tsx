@@ -51,11 +51,11 @@ export function EventTimeline() {
   ]
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-amber-50 via-slate-50 to-amber-100 relative">
+    <section className="py-20 px-4 bg-emerald-950 relative">
       {/* Section Title */}
       <div className="text-center mb-16">
-        <h2 className="font-heading text-4xl md:text-5xl text-amber-900 font-light mb-4">Timeline of Events</h2>
-        <div className="w-24 h-1 bg-gradient-to-r from-rose-400 via-amber-400 to-rose-400 mx-auto rounded" />
+        <h2 className="font-heading text-4xl md:text-5xl text-gold font-light mb-4">Timeline of Events</h2>
+        <div className="w-24 h-1 bg-gradient-to-r from-gold via-gold to-gold/50 mx-auto rounded" />
       </div>
 
       {/* Timeline */}
@@ -67,17 +67,17 @@ export function EventTimeline() {
           >
             {/* Timeline Icon */}
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-gradient-to-br from-rose-200 to-amber-200 border-2 border-amber-500 text-amber-700 rounded-full flex items-center justify-center mb-4 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-16 h-16 bg-gold/20 border-2 border-gold text-gold rounded-full flex items-center justify-center mb-4 shadow-lg hover:shadow-[0_0_20px_rgba(212,175,55,0.3)] transition-shadow">
                 {event.icon}
               </div>
-              {index < events.length - 1 && <div className="w-1 h-20 bg-gradient-to-b from-amber-400 to-rose-400" />}
+              {index < events.length - 1 && <div className="w-1 h-20 bg-gradient-to-b from-gold to-gold/40" />}
             </div>
 
             {/* Content */}
             <div className="flex-1 pb-8">
-              <p className="text-amber-700 text-sm font-light tracking-widest uppercase mb-2">{event.time}</p>
-              <h3 className="font-heading text-2xl text-amber-900 mb-2">{event.title}</h3>
-              <p className="text-amber-800/80 font-body text-sm">{event.description}</p>
+              <p className="text-gold text-sm font-light tracking-widest uppercase mb-2">{event.time}</p>
+              <h3 className="font-heading text-2xl text-cream mb-2">{event.title}</h3>
+              <p className="text-cream/80 font-body text-sm">{event.description}</p>
             </div>
           </div>
         ))}
