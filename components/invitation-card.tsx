@@ -24,21 +24,30 @@ export function InvitationCard() {
               </p>
             </div>
 
-            {/* Main Content */}
+            {/* Main Content - Groom, Illustration, Bride Layout */}
             <div className="mb-12">
-              <div className="text-center mb-8">
-                <h1 style={{ fontFamily: 'var(--font-script)', fontSize: '3rem', fontWeight: '400', color: '#C9A876', textShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
+              {/* Groom Name */}
+              <div className="text-center mb-6">
+                <h1 style={{ fontFamily: 'var(--font-script)', fontSize: '2.5rem', fontWeight: '400', color: '#C9A876', textShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
                   M. Mubarak Basha
                 </h1>
                 <span className="text-xs font-body block" style={{ color: '#5C4033' }}>BCA. | Paternal Grand Sio Late Janab Bashu Sahib</span>
               </div>
 
-              <div className="text-center mb-2">
-                <p className="font-heading text-lg font-light" style={{ color: '#3D2817' }}>&</p>
+              {/* Couple Illustration */}
+              <div className="flex justify-center mb-6">
+                <div className="relative w-full max-w-xs h-80 flex items-center justify-center">
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-T1vGTSYekhoaY1n93YWOz7gcoqFjeG.png"
+                    alt="Wedding Couple Illustration"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
               </div>
 
+              {/* Bride Name */}
               <div className="text-center">
-                <h2 style={{ fontFamily: 'var(--font-script)', fontSize: '3rem', fontWeight: '400', color: '#D4967D', textShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
+                <h2 style={{ fontFamily: 'var(--font-script)', fontSize: '2.5rem', fontWeight: '400', color: '#D4967D', textShadow: '0 1px 3px rgba(0,0,0,0.05)' }}>
                   A. Fathima Humera
                 </h2>
                 <p className="font-body text-xs md:text-sm" style={{ color: '#5C4033' }}>
