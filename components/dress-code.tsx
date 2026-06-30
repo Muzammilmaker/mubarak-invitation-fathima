@@ -11,7 +11,7 @@ export function DressCode() {
         <div className="text-center mb-16">
           <h2 className="font-heading text-4xl md:text-5xl text-gold font-light mb-4">Dress Code</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-gold via-gold to-gold/50 mx-auto rounded" />
-          <p className="text-gold/80 font-body text-sm mt-4">Formal Islamic Wedding Attire</p>
+          <p className="text-gold font-body text-sm mt-4">Formal Islamic Wedding Attire</p>
         </div>
 
         {/* Main Layout: Groom | Islamic Calligraphy | Bride */}
@@ -21,10 +21,10 @@ export function DressCode() {
             <h3 style={{ fontFamily: 'var(--font-script)', fontSize: '2rem', fontWeight: '400', color: '#D4AF37', marginBottom: '1rem' }}>
               M. Mubarak Basha
             </h3>
-            <p className="text-cream font-body text-sm mb-4">
+            <p className="text-white font-body text-sm mb-4">
               Traditional Sherwani in Emerald Green or Rich Maroon with ornate gold embroidery
             </p>
-            <p className="text-gold/80 font-body text-xs italic">
+            <p className="text-gold font-body text-xs italic">
               Formal Turban or Traditional Head Covering
             </p>
           </div>
@@ -48,10 +48,10 @@ export function DressCode() {
             <h3 style={{ fontFamily: 'var(--font-script)', fontSize: '2rem', fontWeight: '400', color: '#D4AF37', marginBottom: '1rem' }}>
               A. Fathima Humera
             </h3>
-            <p className="text-cream font-body text-sm mb-4">
+            <p className="text-white font-body text-sm mb-4">
               Elegant Lehenga or Formal Bridal Gown in Rose, Gold, or Cream with intricate embroidery
             </p>
-            <p className="text-gold/80 font-body text-xs italic">
+            <p className="text-gold font-body text-xs italic">
               Traditional Bridal Veil or Hijab with Golden Trim
             </p>
           </div>

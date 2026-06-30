@@ -46,7 +46,7 @@ export function CountdownTimer() {
   if (!isLoaded) {
     return (
       <section className="min-h-screen bg-emerald-900 py-16 px-4 flex items-center justify-center">
-        <div className="text-cream text-center">Loading...</div>
+        <div className="text-white text-center">Loading...</div>
       </section>
     )
   }
@@ -67,10 +67,10 @@ export function CountdownTimer() {
   return (
     <section className="min-h-screen bg-emerald-900 py-16 px-4 flex items-center justify-center">
       <div className="max-w-4xl w-full text-center">
-        <h2 className="font-heading text-3xl md:text-4xl text-cream mb-4 font-light">
+        <h2 className="font-heading text-3xl md:text-4xl text-white mb-4 font-light">
           Countdown to the Celebration
         </h2>
-        <p className="text-cream/80 font-body mb-12 text-sm md:text-base">
+        <p className="text-white font-body mb-12 text-sm md:text-base">
           The special day is almost here
         </p>
 
@@ -82,7 +82,7 @@ export function CountdownTimer() {
         </div>
 
         <div className="mt-12 p-6 border-2 border-gold/30 rounded-lg bg-emerald-950/30 backdrop-blur-sm">
-          <p className="text-cream/90 font-body text-sm md:text-base italic">
+          <p className="text-white font-body text-sm md:text-base italic">
             ما شاء الله - Alhamdulillah for this blessed occasion
           </p>
         </div>

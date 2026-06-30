@@ -76,8 +76,8 @@ export function EventTimeline() {
             {/* Content */}
             <div className="flex-1 pb-8">
               <p className="text-gold text-sm font-light tracking-widest uppercase mb-2">{event.time}</p>
-              <h3 className="font-heading text-2xl text-cream mb-2">{event.title}</h3>
-              <p className="text-cream/80 font-body text-sm">{event.description}</p>
+              <h3 className="font-heading text-2xl text-white mb-2">{event.title}</h3>
+              <p className="text-white font-body text-sm">{event.description}</p>
             </div>
           </div>
         ))}

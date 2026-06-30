@@ -34,7 +34,7 @@ export function QuranVerse() {
 
           {/* English Translation */}
           <div className="text-center">
-            <p className="text-cream/90 font-body text-base md:text-lg leading-relaxed mb-4 italic">
+            <p className="text-white font-body text-base md:text-lg leading-relaxed mb-4 italic">
               &quot;And among His signs is that He created for you spouses from among yourselves that you may find tranquility in them. And He has put between you affection and mercy.&quot;
             </p>
             <p className="text-gold font-heading text-sm font-light tracking-wide uppercase drop-shadow">

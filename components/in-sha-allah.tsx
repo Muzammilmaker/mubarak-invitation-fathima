@@ -16,7 +16,7 @@ export function InShaAllah() {
           {/* Nikah Details */}
           <div className="mb-24">
             <h3 className="font-heading text-2xl text-gold font-light mb-8">Nikah:</h3>
-            <div className="space-y-4 text-cream/90 font-body text-lg">
+            <div className="space-y-4 text-white font-body text-lg">
               <p>On Sunday, 16th August 2026, @ 12:15 p.m.</p>
               <p>3rd Rabi Al-Awwal 1448 Hijri</p>
               <p className="mt-8">@ Masjid-e-Noor, Habeebabad, Newdelhi,</p>
@@ -32,7 +32,7 @@ export function InShaAllah() {
           {/* Valima Details */}
           <div className="mb-16">
             <h3 className="font-heading text-2xl text-gold font-light mb-8">Valima:</h3>
-            <div className="space-y-4 text-cream/90 font-body text-lg">
+            <div className="space-y-4 text-white font-body text-lg">
               <p>(Ziafat) Lunch after Zuhar Namaz</p>
               <p>@ No.778, H.B.House, Oost Street,</p>
               <p>Khaderpet, Vaniyambaadi - 635 751.</p>

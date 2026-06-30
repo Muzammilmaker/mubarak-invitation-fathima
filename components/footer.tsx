@@ -12,7 +12,7 @@ export function Footer() {
           <p className="font-heading text-2xl md:text-3xl text-gold font-light mb-4 drop-shadow">
             Jazak Allah Khair
           </p>
-          <p className="text-cream/80 font-body text-sm md:text-base">
+          <p className="text-white font-body text-sm md:text-base">
             Thank you for your love and blessings
           </p>
         </div>
@@ -27,7 +27,7 @@ export function Footer() {
         {/* Contact Info */}
         <div className="mb-8">
           <h3 className="text-gold font-heading font-light mb-3">Get in Touch</h3>
-          <p className="text-cream/70 font-body text-xs md:text-sm space-y-1">
+          <p className="text-white font-body text-xs md:text-sm space-y-1">
             <span className="block">Mrs. Malik Basha Sahib</span>
             <span className="block">67/A1 5th Street Teachers Colony</span>
             <span className="block">Kaderpet, Vaniyambadi - 635 751</span>
@@ -37,7 +37,7 @@ export function Footer() {
 
         {/* Closing */}
         <div className="pt-8 border-t border-gold/20">
-          <p className="text-cream/60 font-body text-xs md:text-sm">
+          <p className="text-white font-body text-xs md:text-sm">
             May Allah bless this union with love, compassion, and happiness<br />
             <span className="italic">In Sha Allah - By the Will of Allah</span>
           </p>
@@ -45,7 +45,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="mt-8 pt-6 border-t border-gold/10">
-          <p className="text-cream/40 font-body text-xs">
+          <p className="text-white font-body text-xs">
             Created with ❤️ in celebration of love and faith
           </p>
         </div>
