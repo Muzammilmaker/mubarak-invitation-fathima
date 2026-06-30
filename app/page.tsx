@@ -1,5 +1,6 @@
 import { HeroSection } from '@/components/hero-section'
 import { InvitationCard } from '@/components/invitation-card'
+import { InShaAllah } from '@/components/in-sha-allah'
 import { CountdownTimer } from '@/components/countdown-timer'
 import { QuranVerse } from '@/components/quran-verse'
 import { EventTimeline } from '@/components/event-timeline'
@@ -14,6 +15,7 @@ export default function Page() {
       <BackgroundMusic />
       <HeroSection />
       <InvitationCard />
+      <InShaAllah />
       <CountdownTimer />
       <QuranVerse />
       <EventTimeline />
