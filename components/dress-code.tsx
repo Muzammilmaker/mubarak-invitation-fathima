@@ -1,11 +1,12 @@
 'use client'
 
 import React from 'react'
+import Image from 'next/image'
 
 export function DressCode() {
   return (
-    <section className="min-h-screen bg-emerald-950 py-16 px-4">
-      <div className="max-w-6xl mx-auto">
+    <section className="min-h-screen bg-emerald-950 py-16 px-4 flex items-center justify-center">
+      <div className="max-w-6xl mx-auto w-full">
         {/* Section Title */}
         <div className="text-center mb-16">
           <h2 className="font-heading text-4xl md:text-5xl text-gold font-light mb-4">Dress Code</h2>
@@ -13,98 +14,46 @@ export function DressCode() {
           <p className="text-gold/80 font-body text-sm mt-4">Formal Islamic Wedding Attire</p>
         </div>
 
-        {/* Groom and Bride Section */}
-        <div className="grid md:grid-cols-2 gap-12 items-start mb-16">
-          {/* Groom */}
-          <div className="text-center p-8 border-2 border-gold/30 rounded-lg bg-emerald-900/40">
-            <h3 style={{ fontFamily: 'var(--font-script)', fontSize: '2.5rem', fontWeight: '400', color: '#D4AF37', marginBottom: '1.5rem' }}>
-              For the Groom
+        {/* Main Layout: Groom | Islamic Calligraphy | Bride */}
+        <div className="grid md:grid-cols-3 gap-8 items-center">
+          {/* Groom Box */}
+          <div className="text-center p-8 border-2 border-gold rounded-lg bg-cream">
+            <h3 style={{ fontFamily: 'var(--font-script)', fontSize: '2rem', fontWeight: '400', color: '#D4AF37', marginBottom: '1rem' }}>
+              M. Mubarak Basha
             </h3>
-            <ul className="text-cream/80 font-body text-sm space-y-3 text-left">
-              <li className="flex gap-2">
-                <span className="text-gold">✓</span>
-                <span>Traditional Sherwani in Emerald Green or Rich Maroon</span>
-              </li>
-              <li className="flex gap-2">
-                <span className="text-gold">✓</span>
-                <span>Ornate Gold Embroidery and Elegant Buttons</span>
-              </li>
-              <li className="flex gap-2">
-                <span className="text-gold">✓</span>
-                <span>Formal Turban or Traditional Head Covering</span>
-              </li>
-              <li className="flex gap-2">
-                <span className="text-gold">✓</span>
-                <span>Formal Trousers in Complementary Color</span>
-              </li>
-              <li className="flex gap-2">
-                <span className="text-gold">✓</span>
-                <span>Elegant Jewelry and Accessories</span>
-              </li>
-            </ul>
+            <p className="text-emerald-950 font-body text-sm mb-4">
+              Traditional Sherwani in Emerald Green or Rich Maroon with ornate gold embroidery
+            </p>
+            <p className="text-emerald-700 font-body text-xs italic">
+              Formal Turban or Traditional Head Covering
+            </p>
           </div>
 
-          {/* Bride */}
-          <div className="text-center p-8 border-2 border-gold/30 rounded-lg bg-emerald-900/40">
-            <h3 style={{ fontFamily: 'var(--font-script)', fontSize: '2.5rem', fontWeight: '400', color: '#D4AF37', marginBottom: '1.5rem' }}>
-              For the Bride
-            </h3>
-            <ul className="text-cream/80 font-body text-sm space-y-3 text-left">
-              <li className="flex gap-2">
-                <span className="text-gold">✓</span>
-                <span>Elegant Lehenga or Formal Bridal Gown in Rose, Gold, or Cream</span>
-              </li>
-              <li className="flex gap-2">
-                <span className="text-gold">✓</span>
-                <span>Intricate Embroidery and Ornamental Details</span>
-              </li>
-              <li className="flex gap-2">
-                <span className="text-gold">✓</span>
-                <span>Traditional Bridal Veil or Hijab with Golden Trim</span>
-              </li>
-              <li className="flex gap-2">
-                <span className="text-gold">✓</span>
-                <span>Elaborate Jewelry and Accessories</span>
-              </li>
-              <li className="flex gap-2">
-                <span className="text-gold">✓</span>
-                <span>Formal Islamic Wedding Attire</span>
-              </li>
-            </ul>
+          {/* Center: Islamic Calligraphy Circle */}
+          <div className="flex justify-center items-center">
+            <div className="relative w-64 h-64 flex items-center justify-center">
+              <Image
+                src="/bismillah-circle.png"
+                alt="Islamic Calligraphy - Bismillah"
+                width={280}
+                height={280}
+                className="object-contain drop-shadow-2xl"
+                priority
+              />
+            </div>
           </div>
-        </div>
 
-        {/* General Dress Code */}
-        <div className="p-8 border-2 border-gold/30 rounded-lg bg-emerald-900/40">
-          <h3 className="font-heading text-2xl text-gold mb-6 text-center">General Dress Code for Guests</h3>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="text-center">
-              <p className="font-heading text-lg text-gold mb-3">For Men</p>
-              <ul className="text-cream/80 font-body text-sm space-y-2">
-                <li>Traditional Kurta & Pajama</li>
-                <li>or Formal Sherwani</li>
-                <li>Traditional Head Covering</li>
-                <li>Formal Accessories</li>
-              </ul>
-            </div>
-            <div className="text-center">
-              <p className="font-heading text-lg text-gold mb-3">For Women</p>
-              <ul className="text-cream/80 font-body text-sm space-y-2">
-                <li>Elegant Saree or Salwar Kameez</li>
-                <li>Traditional Lehenga</li>
-                <li>Modest and Formal Attire</li>
-                <li>Elegant Jewelry & Hijab</li>
-              </ul>
-            </div>
-            <div className="text-center">
-              <p className="font-heading text-lg text-gold mb-3">Color Palette</p>
-              <ul className="text-cream/80 font-body text-sm space-y-2">
-                <li>Emerald Green & Gold</li>
-                <li>Rose Pink & Gold</li>
-                <li>Deep Maroon</li>
-                <li>Cream & Ivory</li>
-              </ul>
-            </div>
+          {/* Bride Box */}
+          <div className="text-center p-8 border-2 border-gold rounded-lg bg-cream">
+            <h3 style={{ fontFamily: 'var(--font-script)', fontSize: '2rem', fontWeight: '400', color: '#D4AF37', marginBottom: '1rem' }}>
+              A. Fathima Humera
+            </h3>
+            <p className="text-emerald-950 font-body text-sm mb-4">
+              Elegant Lehenga or Formal Bridal Gown in Rose, Gold, or Cream with intricate embroidery
+            </p>
+            <p className="text-emerald-700 font-body text-xs italic">
+              Traditional Bridal Veil or Hijab with Golden Trim
+            </p>
           </div>
         </div>
       </div>
