@@ -4,10 +4,17 @@ import React from 'react'
 
 export function InvitationCard() {
   return (
-    <section id="invitation" className="min-h-screen bg-gradient-to-br from-amber-50 via-slate-50 to-amber-100 py-16 px-4 flex items-center justify-center">
-      <div className="max-w-4xl w-full">
+    <section id="invitation" className="min-h-screen py-16 px-4 flex items-center justify-center relative overflow-hidden" style={{
+      backgroundImage: 'url(/islamic-wedding-bg.png)',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundAttachment: 'fixed'
+    }}>
+      {/* Overlay for better readability */}
+      <div className="absolute inset-0 bg-black/10" />
+      <div className="max-w-4xl w-full relative z-10">
         {/* Card Container */}
-        <div className="bg-gradient-to-br from-amber-50 to-amber-100 rounded-xl shadow-2xl overflow-hidden border-2 border-amber-400 illumination-glow">
+        <div className="bg-gradient-to-br from-amber-50 to-amber-100 rounded-xl shadow-2xl overflow-hidden border-2 border-amber-400 illumination-glow backdrop-blur-sm">
           {/* Top Border */}
           <div className="h-2 bg-gradient-to-r from-amber-600 via-rose-500 to-amber-400 ornament-top" />
 
