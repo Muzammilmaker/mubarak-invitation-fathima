@@ -51,8 +51,8 @@
 
 :root {
   color-scheme: light;
-  --background: linear-gradient(to bottom right, #faf8f3, #f3f1ed, #fef6ee);
-  --foreground: #1a1410;
+  --background: linear-gradient(to bottom right, #E8D5C4, #D4C4B0, #F5E6D3);
+  --foreground: #3D2817;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
@@ -84,14 +84,15 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
   
-  /* Islamic Wedding Custom Theme */
-  --primary-dark: #8B4513;
-  --primary-light: #D2691E;
-  --gold: #D4AF37;
-  --rose: #E91E63;
+  /* Islamic Wedding Custom Theme - Warm Romantic */
+  --peachy-rose: #E8D5C4;
+  --terracotta: #A87860;
+  --rose-gold: #C9A876;
+  --rose: #D4967D;
   --cream: #FFF9F0;
   --ivory: #F5E6D3;
   --sage: #9B8B7E;
+  --gold: #D4AF37;
 }
 
 .dark {

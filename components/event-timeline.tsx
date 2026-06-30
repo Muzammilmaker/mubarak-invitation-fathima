@@ -51,11 +51,11 @@ export function EventTimeline() {
   ]
 
   return (
-    <section className="py-20 px-4 bg-emerald-950 relative">
+    <section className="py-20 px-4 relative" style={{ backgroundColor: '#E8D5C4' }}>
       {/* Section Title */}
       <div className="text-center mb-16">
-        <h2 className="font-heading text-4xl md:text-5xl text-gold font-light mb-4">Timeline of Events</h2>
-        <div className="w-24 h-1 bg-gradient-to-r from-gold via-gold to-gold/50 mx-auto rounded" />
+        <h2 className="font-heading text-4xl md:text-5xl font-light mb-4" style={{ color: '#3D2817' }}>Timeline of Events</h2>
+        <div className="w-24 h-1 mx-auto rounded" style={{ backgroundImage: 'linear-gradient(to right, #C9A876, #C9A876, rgba(201, 168, 118, 0.3))' }} />
       </div>
 
       {/* Timeline */}

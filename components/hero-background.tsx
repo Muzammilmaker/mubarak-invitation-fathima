@@ -12,9 +12,9 @@ export function HeroBackground() {
       >
         <defs>
           <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" style={{ stopColor: '#0B3D2E', stopOpacity: 1 }} />
-            <stop offset="50%" style={{ stopColor: '#1a5c42', stopOpacity: 1 }} />
-            <stop offset="100%" style={{ stopColor: '#0B3D2E', stopOpacity: 1 }} />
+            <stop offset="0%" style={{ stopColor: '#E8D5C4', stopOpacity: 1 }} />
+            <stop offset="50%" style={{ stopColor: '#F0D9C8', stopOpacity: 1 }} />
+            <stop offset="100%" style={{ stopColor: '#E8D5C4', stopOpacity: 1 }} />
           </linearGradient>
           <filter id="glow">
             <feGaussianBlur stdDeviation="3" result="coloredBlur" />
@@ -100,7 +100,7 @@ export function HeroBackground() {
       </svg>
 
       {/* Overlay for depth */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-emerald-950 opacity-40" />
+      <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'linear-gradient(to bottom, transparent, transparent, rgba(168, 120, 96, 0.3))' }} />
     </div>
   )
 }

@@ -53,24 +53,24 @@ export function CountdownTimer() {
 
   const TimerBox = ({ value, label }: { value: number; label: string }) => (
     <div className="flex flex-col items-center">
-      <div className="w-20 h-20 md:w-28 md:h-28 border-2 border-gold rounded-lg flex items-center justify-center bg-emerald-950/50 backdrop-blur-sm hover:border-gold/80 transition-all duration-300 hover:shadow-[0_0_20px_rgba(212,175,55,0.3)]">
-        <span className="font-heading text-3xl md:text-4xl text-gold font-light">
+      <div className="w-20 h-20 md:w-28 md:h-28 rounded-full flex items-center justify-center shadow-lg transition-all duration-300" style={{ backgroundColor: '#FFFFFF', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }}>
+        <span className="font-heading text-3xl md:text-4xl font-light" style={{ color: '#A87860' }}>
           {String(value).padStart(2, '0')}
         </span>
       </div>
-      <p className="mt-3 text-gold text-xs md:text-sm uppercase tracking-widest font-light">
+      <p className="mt-3 text-xs md:text-sm uppercase tracking-widest font-light" style={{ color: '#A87860' }}>
         {label}
       </p>
     </div>
   )
 
   return (
-    <section className="min-h-screen bg-emerald-900 py-16 px-4 flex items-center justify-center">
+    <section className="min-h-screen py-16 px-4 flex items-center justify-center" style={{ backgroundColor: '#E8D5C4' }}>
       <div className="max-w-4xl w-full text-center">
-        <h2 className="font-heading text-3xl md:text-4xl text-white mb-4 font-light">
+        <h2 className="font-heading text-3xl md:text-4xl mb-4 font-light" style={{ color: '#3D2817' }}>
           Countdown to the Celebration
         </h2>
-        <p className="text-white font-body mb-12 text-sm md:text-base">
+        <p className="font-body mb-12 text-sm md:text-base" style={{ color: '#5C4033' }}>
           The special day is almost here
         </p>
 
@@ -81,8 +81,8 @@ export function CountdownTimer() {
           <TimerBox value={timeRemaining.seconds} label="Seconds" />
         </div>
 
-        <div className="mt-12 p-6 border-2 border-gold/30 rounded-lg bg-emerald-950/30 backdrop-blur-sm">
-          <p className="text-white font-body text-sm md:text-base italic">
+        <div className="mt-12 p-6 rounded-lg" style={{ backgroundColor: 'rgba(255, 255, 255, 0.4)', borderTop: '2px solid #C9A876', borderBottom: '2px solid #C9A876' }}>
+          <p className="font-body text-sm md:text-base italic" style={{ color: '#3D2817' }}>
             ما شاء الله - Alhamdulillah for this blessed occasion
           </p>
         </div>
