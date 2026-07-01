@@ -9,27 +9,27 @@ export function HeroSection() {
       <HeroBackground />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-4xl">
+      <div className="relative z-10 text-center px-3 sm:px-4 max-w-4xl">
         {/* Arabic Calligraphy */}
-        <div className="mb-8 animate-fade-up elegant-fade" style={{ animationDelay: '0.1s' }}>
-          <p className="text-2xl md:text-3xl font-light mb-2 drop-shadow-lg" style={{ color: '#C9A876' }}>
+        <div className="mb-6 sm:mb-8 animate-fade-up elegant-fade" style={{ animationDelay: '0.1s' }}>
+          <p className="text-xl sm:text-2xl md:text-3xl font-light mb-2 drop-shadow-lg" style={{ color: '#C9A876' }}>
             بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
           </p>
-          <p className="text-sm md:text-base font-body" style={{ color: '#3D2817' }}>
+          <p className="text-xs sm:text-sm md:text-base font-body" style={{ color: '#3D2817' }}>
             Assalamu Alaikum ورحمة الله وبركاته
           </p>
         </div>
 
         {/* Subtitle */}
-        <div className="mb-6 animate-fade-up elegant-fade" style={{ animationDelay: '0.2s' }}>
-          <p className="text-xs md:text-sm tracking-widest uppercase font-light" style={{ color: '#C9A876' }}>
+        <div className="mb-4 sm:mb-6 animate-fade-up elegant-fade" style={{ animationDelay: '0.2s' }}>
+          <p className="text-xs sm:text-xs md:text-sm tracking-widest uppercase font-light" style={{ color: '#C9A876' }}>
             With the blessings of Allah (SWT)
           </p>
         </div>
 
         {/* Main Heading */}
-        <div className="mb-8 animate-fade-up elegant-fade" style={{ animationDelay: '0.3s' }}>
-          <p className="font-heading text-lg md:text-xl font-light mb-8" style={{ color: '#3D2817' }}>
+        <div className="mb-6 sm:mb-8 animate-fade-up elegant-fade" style={{ animationDelay: '0.3s' }}>
+          <p className="font-heading text-base sm:text-lg md:text-xl font-light mb-4 sm:mb-8" style={{ color: '#3D2817' }}>
             You are cordially invited to the Nikah Ceremony of
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 mb-2">
@@ -46,12 +46,12 @@ export function HeroSection() {
         </div>
 
         {/* CTA Button */}
-        <div className="mt-12 animate-fade-up elegant-fade" style={{ animationDelay: '0.5s' }}>
+        <div className="mt-8 sm:mt-12 animate-fade-up elegant-fade" style={{ animationDelay: '0.5s' }}>
           <button
             onClick={() => {
               document.getElementById('invitation')?.scrollIntoView({ behavior: 'smooth' })
             }}
-            className="px-8 py-3 border-2 transition-all duration-300 font-body font-medium tracking-wide uppercase text-sm rounded-lg"
+            className="px-6 sm:px-8 py-2 sm:py-3 border-2 transition-all duration-300 font-body font-medium tracking-wide uppercase text-xs sm:text-sm rounded-lg"
             style={{ 
               borderColor: '#C9A876',
               color: '#C9A876',
