@@ -34,9 +34,9 @@ export function InvitationCard() {
                 <span className="text-xs font-body block" style={{ color: '#5C4033' }}>BCA. | Paternal Grand Sio Late Janab Bashu Sahib</span>
               </div>
 
-              {/* Couple Illustration */}
-              <div className="flex justify-center mb-6">
-                <div className="relative w-full max-w-xs h-80 flex items-center justify-center">
+              {/* Couple Illustration - Framed Box */}
+              <div className="flex justify-center mb-8">
+                <div className="relative w-full max-w-md rounded-lg shadow-lg overflow-hidden" style={{ backgroundColor: 'rgba(201, 168, 118, 0.1)', border: '3px solid rgba(201, 168, 118, 0.25)', padding: '24px', minHeight: '380px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <img
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-T1vGTSYekhoaY1n93YWOz7gcoqFjeG.png"
                     alt="Wedding Couple Illustration"
