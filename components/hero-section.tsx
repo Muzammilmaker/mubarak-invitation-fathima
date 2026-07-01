@@ -10,9 +10,9 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 text-center px-3 sm:px-4 max-w-4xl">
-        {/* Arabic Calligraphy */}
-        <div className="mb-6 sm:mb-8 animate-fade-up elegant-fade" style={{ animationDelay: '0.1s' }}>
-          <p className="text-xl sm:text-2xl md:text-3xl font-light mb-2 drop-shadow-lg" style={{ color: '#C9A876' }}>
+        {/* Arabic Calligraphy Block */}
+        <div className="mb-6 sm:mb-8 animate-fade-up elegant-fade rounded-lg px-6 sm:px-8 py-3 sm:py-4" style={{ animationDelay: '0.1s', backgroundColor: 'rgba(201, 168, 118, 0.15)' }}>
+          <p className="text-xl sm:text-2xl md:text-3xl font-light mb-2" style={{ color: '#C9A876' }}>
             بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
           </p>
           <p className="text-xs sm:text-sm md:text-base font-body" style={{ color: '#3D2817' }}>
@@ -20,26 +20,26 @@ export function HeroSection() {
           </p>
         </div>
 
-        {/* Subtitle */}
-        <div className="mb-4 sm:mb-6 animate-fade-up elegant-fade" style={{ animationDelay: '0.2s' }}>
-          <p className="text-xs sm:text-xs md:text-sm tracking-widest uppercase font-light" style={{ color: '#C9A876' }}>
+        {/* Blessing Block */}
+        <div className="mb-4 sm:mb-6 animate-fade-up elegant-fade rounded-lg px-6 sm:px-8 py-2 sm:py-3" style={{ animationDelay: '0.2s', backgroundColor: 'rgba(168, 120, 96, 0.2)' }}>
+          <p className="text-xs sm:text-sm md:text-base tracking-widest uppercase font-medium" style={{ color: '#3D2817' }}>
             With the blessings of Allah (SWT)
           </p>
         </div>
 
-        {/* Main Heading */}
-        <div className="mb-6 sm:mb-8 animate-fade-up elegant-fade" style={{ animationDelay: '0.3s' }}>
-          <p className="font-heading text-base sm:text-lg md:text-xl font-light mb-4 sm:mb-8" style={{ color: '#3D2817' }}>
+        {/* Main Invitation Block */}
+        <div className="mb-6 sm:mb-8 animate-fade-up elegant-fade rounded-lg px-6 sm:px-8 py-4 sm:py-6" style={{ animationDelay: '0.3s', backgroundColor: 'rgba(168, 120, 96, 0.25)' }}>
+          <p className="font-heading text-base sm:text-lg md:text-xl font-light mb-6 sm:mb-8" style={{ color: '#3D2817' }}>
             You are cordially invited to the Nikah Ceremony of
           </p>
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 mb-2">
-            <div style={{ fontFamily: 'var(--font-script)', fontSize: '3.5rem', fontWeight: '400', color: '#D4AF37', textShadow: '0 2px 10px rgba(212, 175, 55, 0.4)' }}>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+            <div style={{ fontFamily: 'var(--font-script)', fontSize: '2.5rem', sm: '3rem', fontWeight: 'bold', color: '#C9A876' }}>
               Mubarak
             </div>
-            <div className="relative">
-              <div className="text-4xl md:text-5xl animate-pulse">💍</div>
+            <div className="text-3xl sm:text-4xl" style={{ color: '#C9A876' }}>
+              &
             </div>
-            <div style={{ fontFamily: 'var(--font-script)', fontSize: '3.5rem', fontWeight: '400', color: '#D4AF37', textShadow: '0 2px 10px rgba(212, 175, 55, 0.4)' }}>
+            <div style={{ fontFamily: 'var(--font-script)', fontSize: '2.5rem', sm: '3rem', fontWeight: 'bold', color: '#D4967D' }}>
               Fathima
             </div>
           </div>
